@@ -1,0 +1,277 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    box-shadow: 0px 2px 10px 0px #ccc;
+    background-color: white;
+    top: 0px;
+    
+    display: flex;
+    justify-content: space-between;
+
+    position: fixed;
+}
+
+.headerLeft {
+    width: 48%;
+    margin-left: 2%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 70px;
+    padding: 8px;
+}
+
+.menu>ul {
+    display: flex;
+    gap: 40px;
+}
+
+.menu>ul>li>a {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+}
+
+.headerRight {
+    width: 45%;
+    margin-right: 2%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerRight>form {
+    width: 70%;
+    display: flex;
+    
+    
+}
+
+.headerRight>form>button {
+    width: 10%;
+    height: 40px;
+
+    background: #f5f5f6;
+    border: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.headerRight>form>input {
+    width: 90%;
+    height: 40px;
+
+    background: #f5f5f6;
+    border: none;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.profile ul {
+    display: flex;
+    gap: 15px;
+}
+
+.profile ul li:hover {
+    cursor: pointer;
+}
+
+.profile ul li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3px;
+
+    font-size: 14px;
+}
+
+
+
+
+
+
+.banner {
+    width: 100%;
+    margin-top: 40px;
+
+    padding-top: 80px;
+}
+
+.banner img {
+    width: 100%;
+}
+
+
+
+
+.brandSection {
+    width: 100%;
+    padding: 80px 0px;
+}
+
+.brandSection h2 {
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.brandRow {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.brandItems {
+    width: 20%;
+    display: flex;
+}
+
+.brandItems img {
+   width: 100%;
+}
+
+
+
+.brandSection2 {
+    width: 100%;
+
+}
+
+.brandSection2 h2 {
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.brandRow2 {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.brandItems2 {
+    width: 17%;
+    display: flex;
+    flex-direction: row;
+}
+
+.brandItems2 img {
+    width: 100%;
+}
+
+
+
+
+
+.offerSection {
+    width: 100%;
+    margin-top: 80px;
+}
+
+.offerSection h2 {
+    padding-left: 30px;
+    font-size: 30px;
+}
+
+.offerRow {
+    width: 100%;
+    margin-top: 60px;
+}
+
+.offers {
+    width: 17%;
+    display: flex;
+}
+
+.offers img {
+    width: 100%;
+}
+
+
+
+
+
+.footer {
+    width: 100%;
+    background-color: #FAFBFC;
+    margin-top: 60px;
+    padding: 50px 0px;
+}
+
+.footerMid {
+    width: 1000px;
+    
+    margin: auto;
+    padding-top: 50px;
+    
+    display: flex;
+    justify-content: space-between;
+
+    padding-top: 50px;
+}
+
+.footerMid h5 {
+    margin-bottom: 30px;
+}
+
+.footerMid p {
+    display: flex;
+}
+
+.deepHeading {
+    margin-top: 50px;
+}
+.appImg {
+    width: 200px;
+    display: flex;
+    gap: 10px;
+}
+
+.appImg img {
+    width: 50%;
+}
+
+.icon {
+    display: flex;
+    gap: 15px;
+    font-size: 25px;
+}
+
+.icon a {
+    color: #3e4152;
+}
+
+.promises {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.originility {
+    display: flex;
+    gap: 10px;
+}
+.originility img {
+    width: 40px;
+}
+
+.return {
+    display: flex;
+    gap: 10px;
+}
+.return img {
+    width: 40px;
+}
+
+h5 {
+    color: #3e4152;
+}
